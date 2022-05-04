@@ -1,4 +1,4 @@
-# Team SuperAI
+# AI Albums
 
 Ellie Kripal, ekripal2@unl.edu
 
