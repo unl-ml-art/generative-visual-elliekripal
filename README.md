@@ -1,23 +1,19 @@
-# Project 3 Generative Visual
+# Team SuperAI
 
-Your Name, yourcontact@unl.edu
-(Your teammate's contact info, if appropriate)
+Ellie Kripal, ekripal2@unl.edu
 
 ## Abstract
 
-Include your abstract here. This should be one paragraph clearly describing your concept, method, and results. This should tell us what architecture/approach you used. Also describe your creative goals, and whether you were successful in achieving them. Also could describe future directions.
+In this project I used text-to-image to produce variations of popular albums, using prompts such as "Harry's House," "Melodrama," "Battle at Garden's Gate," etc. This produced the main images that will be used. Then, I used StyleGAN to produce the same generated images in the style of said albums by using the generated album as the content and the original album as the style.
 
 ## Model/Data
 
-Briefly describe the files that are included with your repository:
-- trained models
-- training data (or link to training data)
+For each album, included is the generated image using Text to Image, the original album cover, the final album cover using StyleGAN, and a PDF of the StyleGAN Jupyter notebook.
 
 ## Code
 
-Your code for generating your project:
-- Python: generative_code.py
-- Jupyter notebooks: generative_code.ipynb
+text_to_image_CLIP_BigGAN.ipynb
+style_transfer.ipynb
 
 ## Results
 
